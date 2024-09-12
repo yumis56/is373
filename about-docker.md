@@ -29,3 +29,18 @@ Docker is a *containerization* platform.
 1. <code>docker pull example-image-here</code> to pull an image from the *Docker registry*
 2. <code>docker run example-image-here echo "success message here"</code> to run an image, then echo a message for user-readable feedback
    - Docker container will run and then exit very quickly, so adding a message is useful for notifying the user
+
+## Example Docker Commands
+<code>docker images</code>
+- lists images on the system
+  
+| REPOSITORY | TAG | IMAGE ID | CREATED | VIRTUAL SIZE |
+| --- | --- | --- | --- | --- |
+
+<code>docker ps</code>
+- lists containers that are running
+- <code>docker ps -a</code> will show all containers, including ones that have exited
+  
+| CONTAINER ID | IMAGE | COMMAND | CREATED | STATUS | PORTS | NAMES |
+| --- | --- | --- | --- | --- | --- | --- |
+
