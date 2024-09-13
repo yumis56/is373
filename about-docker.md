@@ -3,6 +3,8 @@
 Docker is a *containerization* platform.
 
   **Containerization**: The process of packaging source code into an executable container
+  - Kubernetes is used by larger infrastructures and requires at least 3 servers to run applications
+  - Docker is best for individual users and smaller infrastructures, requires only 1 server
   
   **Container**: The executable, packaged source code/software. Similar to a Virtual Machine (VM), but does not simulate an entire computer
   
