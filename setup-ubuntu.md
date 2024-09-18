@@ -12,7 +12,7 @@
 **2. Installing Ubuntu**
 The second step for installing Ubuntu is installing a version of Ubuntu onto WSL. We will be using a method that allows you to install Ubuntu from the command line. 
 - First, you must open Windows Terminal and enter <code> wsl --list --online </code> to see on the available versions of Ubuntu that you are able to install.
-- Once you have found the version that you like, you must type the name of the version that you want and then enter the following: <code> wsl --install -d (name of installation)
+- Once you have found the version that you like, you must type the name of the version that you want and then enter the following: <code> wsl --install -d (name of installation) </code>
 - If successful, you will see a progress bar appear showing that the installation is in progress.
 
 **3. Running Ubuntu**
