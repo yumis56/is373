@@ -9,4 +9,4 @@
 ## Other Pages
 
 ### Virtualization and Containerization
-[About Virtualization and Containerization](virtualization-containerization.md)
+1. [About Virtualization and Containerization](virtualization-containerization.md)
