@@ -51,11 +51,11 @@ Containerization has roots that date back to the early 2000s, though the concept
 
 - **2000s**: The idea of containerization emerged with **Solaris Zones** (2004) and **Linux Containers (LXC)** (2008). These early technologies allowed for the creation of isolated environments on the same system, where applications could run without interfering with one another.
   
-- **2013**: The real breakthrough came with the release of **Docker**, a tool that made containerization simple, portable, and accessible to a wide audience. Docker standardized the container image format and introduced an easy-to-use interface, revolutionizing the way developers build, test, and deploy applications.
+- **2013**: The real breakthrough came with the release of **Docker**, a tool that made containerization simple, portable, and accessible to a wide audience. Docker standardized the container image format and introduced an easy-to-use interface, revolutionizing how developers build, test, and deploy applications.
 
 - **2014 and Beyond**: Following Docker's success, other technologies like **Kubernetes** (developed by Google) emerged to manage and orchestrate containers at a larger scale. This led to the widespread adoption of containerization across various industries, particularly in cloud computing and DevOps.
 
-Today, containerization is a cornerstone of modern software development, allowing developers to easily move applications between environments and scale them efficiently.
+Today, containerization is a cornerstone of modern software development, allowing developers to move applications between environments and scale them efficiently and easily.
 
 ---
 
@@ -63,4 +63,4 @@ Today, containerization is a cornerstone of modern software development, allowin
 
 While virtualization involves creating multiple virtual machines on one physical machine, **containerization** focuses on packaging just the application and its dependencies into lightweight containers. Unlike virtual machines, containers share the same operating system kernel, making them more efficient regarding resource usage.
 
-<img src="images/containerization-vs.-virtualization-768x420.png" width="300" />
+<img src="images/containerization-vs.-virtualization-768x420.png" width="600" />
