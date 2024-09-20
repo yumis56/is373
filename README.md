@@ -1,17 +1,12 @@
 # is373
 # topic: ufo
+***
+## Getting Started
+1. [Setup Ubuntu](setup-ubuntu.md)
+2. [Setup Docker](about-docker.md)
+3. Setup GitHub
 
-## Pages
-
-### Ubuntu
-[Setup Ubuntu](setup-ubuntu.md)
-
-### Docker
-<a href="default.asp">
-  <img src="images/docker-logo.png" alt="About Docker" width="285" height="200">
-</a>
-
-[About Docker](about-docker.md)
+## Other Pages
 
 ### Virtualization and Containerization
 [About Virtualization and Containerization](virtualization-containerization.md)
