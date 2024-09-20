@@ -61,4 +61,6 @@ Today, containerization is a cornerstone of modern software development, allowin
 
 ### Key Differences from Virtualization:
 
-While virtualization involves creating multiple virtual machines on one physical machine, **containerization** focuses on packaging just the application and its dependencies into lightweight containers. Unlike virtual machines, containers share the same operating system kernel, making them more efficient in terms of resource usage.
+While virtualization involves creating multiple virtual machines on one physical machine, **containerization** focuses on packaging just the application and its dependencies into lightweight containers. Unlike virtual machines, containers share the same operating system kernel, making them more efficient regarding resource usage.
+
+<img src="images/containerization-vs.-virtualization-768x420.png" width="300" />
