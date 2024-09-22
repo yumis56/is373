@@ -6,7 +6,8 @@
 2. [Setup Docker](about-docker.md)
 3. Setup GitHub
 
-## Other Pages
+## Other Pages (sorted in order)
 
-### Virtualization and Containerization
-1. [About Virtualization and Containerization](virtualization-containerization.md)
+[Computing Parts and Concepts](about-computers-etc.md)
+
+[About Virtualization and Containerization](virtualization-containerization.md)
