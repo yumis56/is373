@@ -76,6 +76,7 @@ A portion of your machine's resources will be dedicated to the VM.
 - Choose **30.00 GB** as the maximum amount of file data that the VM may store on the hard drive
 
 ![Screenshot of Oracle VM Virtual Box new VM, first screen](./images/vm-setup-4.png)
+
   Click **'Next'**
 
 4. Click **'Create'** or **'Finish'** to complete your new Ubuntu VM!
