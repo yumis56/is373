@@ -38,20 +38,42 @@ The final step for installing Ubuntu is running it on your machine and making su
 
 ### Set Up Ubuntu in Virtual Box
 When you open your Oracle VM Virtual Box, it will look like this:
+
 ![Screenshot of Oracle VM Virtual Box, with no Virtual Machines (VMs) yet](./images/blank-virtual-box.png)
+
 
 1. Click **'New'** to create a new Virtual Machine (VM)
 First, you will choose and name your VM.
+
 ![Screenshot of Oracle VM Virtual Box new VM, first screen](./images/vm-setup-1.png)
     - **Name**: This is where you add an identifiable name/nickname for your VM
     - **Folder/Machine Folder**: This is where you select your VM's location. You can choose any location that has enough space
     - **ISO Image**: If this field is available, you may select the Ubuntu image that you downloaded in the previous steps, and it will automatically set the **Type** and **Version** for you. If not, continue to:
     - **Type**: This is where you select the desired OS for your VM. Choose **'Linux'**
     - **Version**: This is where you select the version of your OS. Choose **'Ubuntu (64-bit)'**
+      
   Click **'Next'**
 
-2.1. You may or may not get get a "Unattended Guest OS Install Setup" screen
+2. a. You may or may not get get a "Unattended Guest OS Install Setup" screen
+   
+![Screenshot of Oracle VM Virtual Box new VM, first screen](./images/vm-setup-2.png)
 - If you get this screen, you may click **'Next'**
 - Note: by default, username is **"vboxuser"** and password is **"changeme"**
 
-2.2. 
+2. b. Hardware / Memory Size
+A portion of your machine's resources will be dedicated to the VM.
+
+![Screenshot of Oracle VM Virtual Box Hardware setup page](./images/vm-setup-3.png)
+- You may have different options depending on your machine
+- For allocating resources, choose the highest amount possible within the green "reccomendation" zone
+  
+  Click **'Next'**
+
+3. Virtual Hard Disk + location and size
+- Select **'Create a Virtual Hard Disk Now'**
+- If asked for a hard disk type, choose any
+- If asked, leave default **'Dynamically allocated'** over **Fixed size**
+- Choose **30.00 GB** as the maximum amount of file data that the VM may store on the hard drive
+  Click **'Next'**
+
+4. Click **'Create'** or **'Finish'** to complete your new Ubuntu VM!
