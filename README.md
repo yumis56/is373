@@ -2,9 +2,9 @@
 # topic: ufo
 ***
 ## Getting Started
-1. [Setup Ubuntu](setup-ubuntu.md)
-2. [Setup Docker](about-docker.md)
-3. Setup GitHub
+1. [Set up Ubuntu](setup-ubuntu.md)
+2. [Set up Docker](about-docker.md)
+3. [Set up GitHub](git-github.md)
 
 ## Other Pages (sorted in order)
 
