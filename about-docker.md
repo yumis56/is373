@@ -26,7 +26,7 @@ Docker is a *containerization* platform.
   
 ## How to Use Docker
 ### Setup
-1. Download Docker for your OS
+1. [Download Docker](https://www.docker.com/get-started/) for your OS
 2. Test installation by running <code>docker run hello-world</code>
 
 ### Running a Container
