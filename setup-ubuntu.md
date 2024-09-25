@@ -46,11 +46,12 @@ When you open your Oracle VM Virtual Box, it will look like this:
 First, you will choose and name your VM.
 
 ![Screenshot of Oracle VM Virtual Box new VM, first screen](./images/vm-setup-1.png)
-    - **Name**: This is where you add an identifiable name/nickname for your VM
-    - **Folder/Machine Folder**: This is where you select your VM's location. You can choose any location that has enough space
-    - **ISO Image**: If this field is available, you may select the Ubuntu image that you downloaded in the previous steps, and it will automatically set the **Type** and **Version** for you. If not, continue to:
-    - **Type**: This is where you select the desired OS for your VM. Choose **'Linux'**
-    - **Version**: This is where you select the version of your OS. Choose **'Ubuntu (64-bit)'**
+
+  - **Name**: This is where you add an identifiable name/nickname for your VM
+  - **Folder/Machine Folder**: This is where you select your VM's location. You can choose any location that has enough space
+  - **ISO Image**: If this field is available, you may select the Ubuntu image that you downloaded in the previous steps, and it will automatically set the **Type** and **Version** for you. If not, continue to:
+  - **Type**: This is where you select the desired OS for your VM. Choose **'Linux'**
+  - **Version**: This is where you select the version of your OS. Choose **'Ubuntu (64-bit)'**
       
   Click **'Next'**
 
