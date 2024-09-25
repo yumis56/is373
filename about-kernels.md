@@ -12,6 +12,9 @@ The kernel is the head chef. It manages the kitchen staff and resources, decidin
 In other words, the kernel is responsible for:
 
 Managing resources: It decides how much of the computer’s power (CPU), memory (RAM), and storage to give to each application.
+
 Handling requests: When applications need to save a file or connect to the internet, they ask the kernel, which handles these tasks securely and efficiently.
+
 Communicating between hardware and software: The kernel translates instructions from the applications (like "open a file") into actions that the hardware can perform (like "access the hard drive").
+
 Without the kernel, the software wouldn’t know how to use the hardware, and nothing would work properly.
