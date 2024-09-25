@@ -1,7 +1,7 @@
 ## IS373 / Group Topic: UFOS
 ***
 # Welcome to our Wiki! 
-## This page will serve as a starting point for those that are new to computing and are looking for a central place to find foundational information about computers and how they work. There are tutorials listed below on how to use different platforms such as Github, Docker, and Ubuntu so you can dive into these platforms immediately.
+This page will serve as a starting point for those that are new to computing and are looking for a central place to find foundational information about computers and how they work. There are tutorials listed below on how to use different platforms such as Github, Docker, and Ubuntu so you can dive into these platforms immediately.
 ## Getting Started
 1. [Set up GitHub](git-github.md)
 - Github, using Git, which is an open source version control software, allows individuals to work on the same project simutaneously. Github, the site you are on right now, allows teams to work together on projects and provides a web interface for Git. 
@@ -18,3 +18,5 @@
 [About Virtualization and Containerization](virtualization-containerization.md)
 - This page covers virtualization, which in essence allows your physical computer to act as multiple separate computers. Containerization is the process of taking code and turning into in a portable unit, which are called containers. The idea of containerization started in the early 2000s, but didn't really make any headway until the creation of Docker and Kubernetes in the 2010s. 
 
+[About the Twelve Factor App](about-12factorapp.md)
+- This page covers the Twelve Factor App methodology, which is a set of principles regarding how a developer should create an application. It was created in the early 2010s in response to the transition into cloud computing, where traditional software principles did not apply. Developers from Heroku helped create the Twelve Factor App, which lists key principles that a developer should follow, its goal is to deter common mistakes that are made in the application building process, and help developers find solutions to their issues. 
