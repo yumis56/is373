@@ -1,5 +1,10 @@
 # Ubuntu Set-Up Guide
+
+
+<img src="./images/ubuntu-logo.png" alt="Ubuntu Logo" width="150" />
+
 ***
+
 ## WSL2 Set-Up Tutorial for Windows
 WSL: Windows Subsystem for Linux
 ### What you will need beforehand: 
