@@ -37,8 +37,7 @@ The final step for installing Ubuntu is running it on your machine and making su
 
 
 ## Virtual Box Set-Up (macOS and Windows)
-<img src="./images/virtualbox-logo.png" alt="VirtualBox Old Logo Logo" width="150" />
-<img src="./images/virtualbox-logo-2024.png" alt="VirtualBox New 2024+ Logo" width="150" />
+<img src="./images/virtualbox-logo.png" alt="VirtualBox Old Logo Logo" height="150" /> <img src="./images/virtualbox-logo-2024.png" alt="VirtualBox New 2024+ Logo" height="150" />
 ### Initial Set-Up
 1. [Download Oracle Virtual Box](https://www.virtualbox.org/wiki/Downloads) for the machine you are currently using (e.g. MacBook would download the macOS package)
 2. [Download Ubuntu [22.04.5 LTS (Jammy Jellyfish)]](https://releases.ubuntu.com/jammy/)
