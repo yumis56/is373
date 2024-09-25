@@ -2,6 +2,8 @@
 ## What is Docker?
 Docker is a *containerization* platform.
 
+<img src="./images/docker-logo.png" alt="Docker Logo" width="300" />
+
   **Containerization**: The process of packaging source code into an executable container
   - Kubernetes is used by larger infrastructures and requires at least 3 servers to run applications
   - Docker is best for individual users and smaller infrastructures, requires only 1 server
