@@ -40,5 +40,6 @@ The proccess of converting a data structure or object state into a reconstructab
 
 
 ## Kernel
+A kernel is the core part of an operating system that connects software to hardware. It manages resources like the CPU and memory, and handles application requests to ensure everything runs smoothly. Think of it like a head chef in a restaurant, coordinating between the kitchen (hardware) and the customers (applications).
 
 ## Application Layer
