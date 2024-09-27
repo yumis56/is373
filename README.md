@@ -19,4 +19,8 @@ This page will serve as a starting point for those that are new to computing and
 - This page covers virtualization, which in essence allows your physical computer to act as multiple separate computers. Containerization is the process of taking code and turning into in a portable unit, which are called containers. The idea of containerization started in the early 2000s, but didn't really make any headway until the creation of Docker and Kubernetes in the 2010s. 
 
 [About the Twelve Factor App](about-12factorapp.md)
-- This page covers the Twelve Factor App methodology, which is a set of principles regarding how a developer should create an application. It was created in the early 2010s in response to the transition into cloud computing, where traditional software principles did not apply. Developers from Heroku helped create the Twelve Factor App, which lists key principles that a developer should follow, its goal is to deter common mistakes that are made in the application building process, and help developers find solutions to their issues. 
+- This page covers the Twelve Factor App methodology, which is a set of principles regarding how a developer should create an application. It was created in the early 2010s in response to the transition into cloud computing, where traditional software principles did not apply. Developers from Heroku helped create the Twelve Factor App, which lists key principles that a developer should follow, its goal is to deter common mistakes that are made in the application building process, and help developers find solutions to their issues.
+
+
+### Images and their Sources
+[Images Sources and Citations Tracking](https://github.com/yumis56/is373/wiki/images-Sources-and-Citations-tracking)
