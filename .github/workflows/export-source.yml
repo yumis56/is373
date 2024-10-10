@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: ys56/is373
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.REPO_ACCESS_TOKEN }}
           path: source
 
       - name: Checkout project repo
