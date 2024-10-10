@@ -12,14 +12,14 @@ jobs:
       - name: Checkout source repo
         uses: actions/checkout@v4
         #with:
-          #repository: ys56/is373
+          #repository: yumis56/is373
           #token: ${{ secrets.REPO_ACCESS_TOKEN }}
           #path: source
 
       - name: Checkout project repo
         uses: actions/checkout@v4
         with:
-          repository: ys56/is373-project
+          repository: yumis56/is373-project
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
           path: project
 
