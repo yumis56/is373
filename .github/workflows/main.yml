@@ -1,0 +1,38 @@
+name: Deploy to is373-project
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout is373 repository
+        uses: actions/checkout@v4
+        with:
+          repository: ys56/is373
+          token: ${{ secrets.GITHUB_TOKEN }}
+          path: is373
+
+      - name: Checkout is373-project repository
+        uses: actions/checkout@v4
+        with:
+          repository: ys56/is373-project
+          token: ${{ secrets.GITHUB_TOKEN }}
+          path: is373-project
+
+      - name: Copy markdown files and images
+        run: |
+          cp -R is373/*.md is373-project/blog/source/_posts/
+          cp -R is373/images/* is373-project/blog/source/images/
+
+      - name: Commit and push changes
+        run: |
+          cd is373-project
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Update is373-projectsite content from is373" || echo "No changes to commit"
+          git push
