@@ -11,10 +11,10 @@ jobs:
     steps:
       - name: Checkout is373 repository
         uses: actions/checkout@v4
-        with:
-          repository: ys56/is373
-          token: ${{ secrets.GITHUB_TOKEN }}
-          path: is373
+        #with:
+          #repository: ys56/is373
+          #token: ${{ secrets.GITHUB_TOKEN }}
+          #path: is373
 
       - name: Checkout is373-project repository
         uses: actions/checkout@v4
