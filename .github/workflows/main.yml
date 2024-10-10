@@ -20,8 +20,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: ys56/is373-project
-          #token: ${{ secrets.GITHUB_TOKEN }}
-          token: ${{ secrets.REPO_ACCESS_TOKEN }}
+          #token: ${{ secrets.REPO_ACCESS_TOKEN }}
           path: is373-project
 
       - name: Copy markdown files and images
