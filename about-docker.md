@@ -4,7 +4,7 @@ title: About Docker
 
 # About Docker
 ## What is Docker?
-<img src="./images/docker-logo.png" alt="Docker Logo" width="200" />
+<img src="/images/docker-logo.png" alt="Docker Logo" width="200" />
 Docker is a *containerization* platform.
 
   **Containerization**: The process of packaging source code into an executable container
@@ -28,7 +28,7 @@ Docker is a *containerization* platform.
   - Client can communicate to multiple daemons
 
 ### Why Docker?
-<img src="./images/docker-companies.png" alt="List of companies that use docker like Pintrest, Shopify, Twitter, etc." height="200" />
+<img src="/images/docker-companies.png" alt="List of companies that use docker like Pintrest, Shopify, Twitter, etc." height="200" />
 Docker is an open-source tool that is compatible with GitHub features. While Kubernetes have greater scaling and is used for larger operations, Docker is ideal for personal use and for smaller companies and cloud infrastructures that prioritize portable workloads.
 
 ## How to Use Docker
